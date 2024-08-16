@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <article>
+        <header>
+            <h1 class="titulo">Calculadora de IMC</h1>
+            <h2 class="subTitulo"> Verifique seu peso ideal</h2>
+        </header>
+        <main>
+
+            <form class="formulario">
+                <label for="name" class="label-name">Nome</label>
+                <input id="name" type="text" class="inp-name" placeholder="Digite seu nome">
+                <br>
+                <label for="peso" class="label-peso">Peso</label>
+                <input type="text" id="peso" class="inp-peso" placeholder="Digite seu peso com ponto">
+                <br>
+                <label for="altura" class="label-altura">Altura</label>
+                <input type="text" id="altura" class="inp-altura" placeholder="Digite sua altura com ponto">
+                <input type="button" class="button" value="Calcular" name="Calcular" onclick="calcular()">
+                <br>
+                <div class="resultado">
+                    <h3 class="resultado-imc"></h3>
+                    <p class="resultado-imc-p"></p>
+            </form>
+    </article>
+    </div>
+    </main>
+    <footer>
+        <p>Para acessar a tabela de conferência, <a href="https://vidasaudavel.einstein.br/calcular-o-seu-imc/" target="_blank" class="link">clique aqui</a>.</p>    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

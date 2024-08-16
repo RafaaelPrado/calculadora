@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333333;
+}
+
+article {
+    display: table;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #0062ff;
+    border-radius: 8px;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white
+}
+
+.titulo {
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.subTitulo {
+    font-size: 1.75rem;
+    color: var(--colorLaranja);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 4px 4px 10px var(--colorPreto);
+    margin-bottom: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+label {
+    font-family: "Poppins";
+    font-weight: bolder;
+    color: var(--colorPreto);
+    font-size: 1rem;
+    margin: 1px;
+    padding: 1px;
+    border-color: #0062ff;
+}
+
+input {
+    border: 0.0000001px solid blue;
+    border-radius: 2px;
+    padding: 3px;
+    margin: 3px;
+    border-color: #0062ff;
+}
+
+.button {
+    margin-top: 30px;
+    padding: 4px 10px;
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: none;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+
+}
+
+footer {
+    margin: 20px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+
+}
